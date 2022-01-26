@@ -95,8 +95,6 @@ ul {
 .header-itim {
   display: block;
   margin-right: 50px;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .header-itim:last-child {
@@ -105,8 +103,6 @@ ul {
 .header-link {
   display: flex;
   margin-left: auto;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 .header-link .itim + .itim {
   margin-left: 50px;
