@@ -48,17 +48,12 @@ ul {
   text-decoration: none;
 }
 
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 /*-------------шапка сайта------- */
@@ -75,6 +70,8 @@ ul {
 }
 
 .logo-header {
+  padding-top: 24px;
+  padding-bottom: 25px;
   color: var(--brend-blue);
   font-family: 'Raleway';
   font-weight: 700;
@@ -98,8 +95,6 @@ ul {
 .header-itim {
   display: block;
   margin-right: 50px;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .header-itim:last-child {
@@ -108,6 +103,8 @@ ul {
 .header-link {
   display: flex;
   margin-left: auto;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .header-link .itim + .itim {
   margin-left: 50px;
@@ -149,17 +146,19 @@ ul {
   color: var(--brend-blue);
 }
 
-/*------------герой------------*/
+/*-----------------------------герой------------*/
 .hero {
   background-color: #2f303a;
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
   margin-left: auto;
   margin-right: auto;
   width: 640px;
-  padding-top: 200px;
+
   margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
@@ -186,10 +185,11 @@ ul {
 
   letter-spacing: 0.06em;
 }
-.button-hero {
-  padding-bottom: 200px;
+/* --------------------------особенности --- */
+.section-advantage {
+  padding-top: 94px;
+  padding-bottom: 47px;
 }
-/* ---------------------особенности --- */
 
 .advantage-title {
   position: absolute;
@@ -233,6 +233,12 @@ ul {
 }
 
 /* ----------------чем мы занимаемся галерея--- */
+
+.section-gallery {
+  padding-top: 47px;
+  padding-bottom: 94px;
+}
+
 .gallery-title {
   margin-bottom: 50px;
   font-weight: 700;
@@ -257,6 +263,12 @@ ul {
 }
 
 /* ---------------------Наша команда ------- */
+
+.section-team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .team-title {
   margin-bottom: 50px;
   font-weight: 700;
@@ -319,10 +331,13 @@ ul {
   clip-path: inset(50%);
   margin: -1px;
 }
+.section-products {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .filter-button {
   display: inline-block;
-
   padding: 6px 22px;
   border-radius: 4px;
   border: 1px solid transparent;
@@ -363,12 +378,14 @@ ul {
 .products {
   display: flex;
   flex-wrap: wrap;
+  margin-left: -30px;
   font-family: Roboto;
   text-decoration: none;
 }
 
 .products-list {
-  flex-basis: calc((100%-60px) / 3);
+  flex-basis: calc((100% - 90px) / 3);
+  margin-left: 30px;
   margin-bottom: 30px;
   background-color: #ffffff;
 }
@@ -436,6 +453,7 @@ ul {
 }
 
 .address-list-item {
+  margin-bottom: 9px;
   color: #ffffff;
   font-family: Roboto;
   font-style: normal;
@@ -449,6 +467,7 @@ ul {
   color: var(--brend-blue);
 }
 .address-list-link {
+  margin-bottom: 9px;
   color: rgba(255, 255, 255, 0.6);
   font-family: Roboto;
   font-style: normal;
