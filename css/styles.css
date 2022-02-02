@@ -446,12 +446,15 @@ ul {
 
 /*  адрес */
 
-.address-list {
+.address {
   margin-top: 20px;
 }
 
-.address-list-item {
+.address-item {
   margin-bottom: 9px;
+}
+
+.address-list-item {
   color: #ffffff;
   font-family: Roboto;
   font-style: normal;
@@ -465,7 +468,6 @@ ul {
   color: var(--brend-blue);
 }
 .address-list-link {
-  margin-bottom: 9px;
   color: rgba(255, 255, 255, 0.6);
   font-family: Roboto;
   font-style: normal;
